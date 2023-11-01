@@ -20,7 +20,7 @@
 #ifndef _NIMBLE_NPL_OS_H_
 #define _NIMBLE_NPL_OS_H_
 #include "nimble/porting/nimble/include/syscfg/syscfg.h"
-
+#include "esp_timer.h"
 #if CONFIG_NIMBLE_STACK_USE_MEM_POOLS
 
 #include <assert.h>
